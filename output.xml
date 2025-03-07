@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-07T12:47:47.773674" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-07T13:30:42.754173" rpa="false" schemaversion="5">
 <suite id="s1" name="demositeAutomation" source="D:\Robot Framework\UI_automation\demoTestAutomation\demositeAutomation.robot">
 <test id="s1-t1" name="TC1" line="5">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-03-07T12:47:47.993760" level="WARN">exexcutable_path is being deprecated. Please use service to configure the driver's executable_path as per documentation.</msg>
-<msg time="2025-03-07T12:47:47.994433" level="INFO">Opening browser 'chrome' to base url 'https://letcode.in/'.</msg>
+<msg time="2025-03-07T13:30:43.126060" level="WARN">exexcutable_path is being deprecated. Please use service to configure the driver's executable_path as per documentation.</msg>
+<msg time="2025-03-07T13:30:43.126698" level="INFO">Opening browser 'chrome' to base url 'https://letcode.in/'.</msg>
 <arg>url=https://letcode.in/</arg>
 <arg>browser=chrome</arg>
 <arg>executable_path=DRIVERS/chromedriver.exe</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-03-07T12:47:47.993510" elapsed="4.755248"/>
+<status status="PASS" start="2025-03-07T13:30:43.124908" elapsed="3.090898"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-03-07T12:47:52.750155" elapsed="0.053507"/>
+<status status="PASS" start="2025-03-07T13:30:46.217893" elapsed="0.670970"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-03-07T12:48:02.804833" level="INFO">Slept 10 seconds.</msg>
+<msg time="2025-03-07T13:30:56.889990" level="INFO">Slept 10 seconds.</msg>
 <arg>10</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-03-07T12:47:52.804174" elapsed="10.000788"/>
+<status status="PASS" start="2025-03-07T13:30:46.889254" elapsed="10.000859"/>
 </kw>
-<status status="PASS" start="2025-03-07T12:47:47.992561" elapsed="14.812949"/>
+<status status="PASS" start="2025-03-07T13:30:43.123658" elapsed="13.766792"/>
 </test>
-<status status="PASS" start="2025-03-07T12:47:47.775145" elapsed="15.031918"/>
+<status status="PASS" start="2025-03-07T13:30:42.755561" elapsed="14.135700"/>
 </suite>
 <statistics>
 <total>
@@ -36,6 +36,6 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2025-03-07T12:47:47.993760" level="WARN">exexcutable_path is being deprecated. Please use service to configure the driver's executable_path as per documentation.</msg>
+<msg time="2025-03-07T13:30:43.126060" level="WARN">exexcutable_path is being deprecated. Please use service to configure the driver's executable_path as per documentation.</msg>
 </errors>
 </robot>
