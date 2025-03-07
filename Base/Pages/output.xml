@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-07T14:20:13.457774" rpa="false" schemaversion="5">
+<suite id="s1" name="Avill" source="D:\Robot Framework\UI_automation\demoTestAutomation\Base\Pages\avill.robot">
+<test id="s1-t1" name="TC1" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-07T14:20:13.725069" level="WARN">exexcutable_path is being deprecated. Please use service to configure the driver's executable_path as per documentation.</msg>
+<msg time="2025-03-07T14:20:13.725490" level="INFO">Opening browser 'chrome' to base url 'https://www.facebook.com/login/'.</msg>
+<arg>url=https://www.facebook.com/login/</arg>
+<arg>browser=chrome</arg>
+<arg>executable_path=D://Robot Framework/UI_automation/demoTestAutomation/DRIVERS/chromedriver.exe</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-07T14:20:13.724816" elapsed="2.558144"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-03-07T14:20:16.285410" elapsed="0.074977"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-07T14:20:26.363093" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-07T14:20:16.360862" elapsed="10.002397"/>
+</kw>
+<status status="PASS" start="2025-03-07T14:20:13.723870" elapsed="12.641486"/>
+</test>
+<status status="PASS" start="2025-03-07T14:20:13.459029" elapsed="12.912089"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Avill" id="s1" pass="1" fail="0" skip="0">Avill</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-07T14:20:13.725069" level="WARN">exexcutable_path is being deprecated. Please use service to configure the driver's executable_path as per documentation.</msg>
+</errors>
+</robot>
